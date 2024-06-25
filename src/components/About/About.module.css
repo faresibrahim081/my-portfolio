@@ -1,0 +1,48 @@
+.content {
+  display: flex;
+  align-items: center;
+  gap: 50px;
+  transition: var(--main-transition);
+}
+.text {
+  font-size: 18px;
+  font-weight: 500;
+  margin-bottom: 30px;
+  transition: var(--main-transition);
+}
+.text:hover {
+  background: linear-gradient(
+    to bottom,
+    var(--text-primary-color),
+    var(--text-third-color)
+  );
+  background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+.image {
+  box-shadow: var(--card-shadow);
+}
+.span {
+  color: var(--text-primary-color);
+  font-weight: 700;
+}
+.download {
+  background-color: var(--text-third-color);
+  color: #fff;
+  font-weight: 700;
+  padding: 8px 20px;
+  border-radius: var(--border-radius);
+  width: fit-content;
+  margin: 25px;
+  cursor: pointer;
+}
+.button {
+  background-color: transparent;
+  border: none;
+  outline: none;
+}
+@media (max-width: 850px) {
+  .content {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,27 @@
+.content{
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 80px;
+}
+.skills{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: var(--text-primary-color);
+    font-weight: 700;
+    width: 250px;
+    padding: 8px 18px;
+    border: 1px solid var(--text-primary-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    cursor: pointer;
+    transition: var(--main-transition);
+    font-size: 22px;
+}
+.skills:hover{
+    color: var(--text-third-color);
+    border-color: var(--text-third-color);
+    box-shadow: var(--btn-shadow);
+}

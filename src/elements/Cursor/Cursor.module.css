@@ -1,0 +1,17 @@
+.cursor{
+    position: fixed;
+    top:0;
+    left: 0;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: #67dcd780;
+    z-index: 33333;
+    box-shadow: var(--btn-shadow);
+    pointer-events: none
+  }
+  @media (max-width: 767px) {
+    .cursor{
+      display: none;
+    }
+  }

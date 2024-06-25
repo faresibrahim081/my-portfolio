@@ -1,0 +1,41 @@
+.footer{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: relative;
+    margin-top: 50px;
+    padding: 25px 0;
+    width: 90%;
+    margin-inline: auto;
+    font-weight: 700;
+}
+.footer::before{
+    content: '';
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 1.8px;
+    background: linear-gradient(
+        to right,
+        var(--text-primary-color),
+        var(--text-third-color)
+      );
+}
+
+.span{
+    color: var(--text-primary-color);
+    font-style: italic;
+}
+
+.social{
+    display: flex;
+    gap: 10px;
+}
+.social .link{
+    opacity: 0.7;
+    transition: var(--main-transition);
+}
+.social .link:hover {
+    opacity: 1;
+    transform: scale(-1,1);
+}

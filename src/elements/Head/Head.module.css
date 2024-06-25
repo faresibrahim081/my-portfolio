@@ -1,0 +1,19 @@
+.title{
+    color: var(--text-primary-color);
+    font-weight: 700;
+    width: fit-content;
+    margin: 40px auto;
+    padding: 8px 18px;
+    text-align: center;
+    border: 1px solid var(--text-primary-color);
+    border-radius: var(--border-radius);
+    overflow: hidden;
+    cursor: pointer;
+    transition: var(--main-transition);
+}
+
+.title:hover{
+    color: var(--text-third-color);
+    border-color: var(--text-third-color);
+    box-shadow: var(--btn-shadow);
+}
