@@ -27,7 +27,6 @@ function Contact() {
                 type="text"
                 tabIndex="1"
                 required
-                autoFocus
             />
             <input
                 className={styles.input}

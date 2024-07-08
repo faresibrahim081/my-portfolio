@@ -8,10 +8,7 @@ import Link from "next/link";
 import { motion } from "framer-motion";
 
 function Landing() {
-  const text = `hello I am
-  fares ibrahim 
-  a frontend devolper`;
-
+  const text = "hello I'm \n fares ibrahim \n a frontend devolper";
   const pVariant = {
     hidden: {
       opacity: 0,
@@ -19,8 +16,9 @@ function Landing() {
     visible: {
       opacity: 1,
       transition: {
-        staggerChildren: 0.1,
-      },
+        staggerChildren: 0.05,
+        delay:0,
+      }
     },
   };
   const spanVariant = {

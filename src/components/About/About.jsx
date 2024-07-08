@@ -64,12 +64,10 @@ function About() {
           </motion.p>
           {info.map((item, index) => {
             return (
-              <>
                 <p key={index}>
                   <span className={styles.span}>{item.title}: </span>
                   {item.info}
                 </p>
-              </>
             );
           })}
           <div className={styles.download}>
